@@ -57,7 +57,8 @@
     align-items: center;
 }
 #about{
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 25px;
 }
 .items-container {
@@ -65,7 +66,7 @@
     flex-wrap: wrap;
     gap:30px ;
     background-color:white;
-    padding: 0 32px 32px 32px;
+    padding: 30px 30px 30px 30px;
 }
 .item-card {
     height: 400px;
