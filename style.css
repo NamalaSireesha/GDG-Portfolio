@@ -1,8 +1,10 @@
 #navbar {
+    gap:2%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 0 5%;
 }
 #navbar a {
     color: white;
@@ -10,14 +12,17 @@
     padding: 20px 70px;
 }
 #nav-links {
-    margin-left: 10px;
-    font-size: 20px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex: 1;
 }
 #pec{
     margin-left: 20px;
 }
 #box{
+    padding-top: 1%;
     margin-left: 50px;
     height:30px;
     background-color: blue;
@@ -30,12 +35,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5%;
 }
 #gdg1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex: 1;
 }
 #gdg-png {
     width: 80px;
@@ -45,21 +52,52 @@
     margin-top: 10px;
     font-size: 30px;
 }
+#gdg2{
+    flex: 1;
+    text-align: right;
+}
 #gdg2 img {
-    margin-right: 10%;
-    width:600px;
-    height: 400px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-right: 0;
 }
 #About{
+    margin-top: 5px;
     display: flex;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    gap:30px;
+    padding: 0 5%;
 }
 #about{
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 25px;
+    font-size: 160%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+@media (max-width:768px) {
+    #About {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text h2 {
+        text-align: center;
+    }
+    .about-text {
+        font-size: 16px;
+    }
+    .about-image img {
+        max-width: 90%;
+    }
+}
+#cartoon img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-width: 450px;
 }
 .items-container {
     display: flex;
