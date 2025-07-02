@@ -48,8 +48,9 @@
     font-size: 30px;
 }
 #gdg2 img {
-    width:800px;
-    height: auto;
+    margin-right: 10%;
+    width:600px;
+    height: 400px;
 }
 #About{
     display: flex;
@@ -60,6 +61,10 @@
     margin-left: 5%;
     margin-right: 5%;
     font-size: 25px;
+}
+#cartoon{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .items-container {
     display: flex;
