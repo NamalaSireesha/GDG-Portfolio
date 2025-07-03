@@ -3,18 +3,30 @@
     <head>
         <title>FIREBASE</title>
         <style>
+            .body{
+                margin-left: 5%;
+                margin-right: 5%;
+                line-height: 1.6;
+                font-size: 16px;
+            }
             #contest{
                 align-items:center;
                 height:300px;
-                width:450px;
-            }
-            #android{
-                height:300px;
                 width:500px;
+            }
+            @media (max-width: 768px) {
+              .body {
+                font-size: 18px;
+                padding: 10px;
+              }
+              #contest{
+                width:70%;
+                height:40%;
+              }
             }
         </style>
     </head>
-    <body>
+    <body class="body">
         <h2 style="color: blue; font-size:45px; text-align:center;">FIREBASE DEVELOPMENT</h2>
         <div style="text-align: center;">
             <img src="FireBase.jpg" id="contest">
